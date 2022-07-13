@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Roboto+Slab:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: rgb(10, 10, 83);
+ }
+
+
+h1 {
+    text-align: center; color: rgb(6, 57, 102)
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+section {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(225, 226, 230);
+    text-align: center; color: rgb(6, 57, 102);
+    border-radius: 10px ;
+    flex-basis: 250px;
+    max-width: 250px;
+}
+
+
+.botao {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: #cdd3d6
+}
+.entrada {
+    padding: 5px;
+    border-radius: 10px ;
+    text-align: center; color: rgb(6, 57, 102)
+}
+
+.textarea {
+    width: 70%;
+    margin-top: 1cm;
+    border-radius: 10px;
+    text-align: center;
+ }
